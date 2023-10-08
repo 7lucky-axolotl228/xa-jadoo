@@ -5,9 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Jadoo</title>
 
- <!--Fonts-->
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+  <!--
+  Google Sans 400, 500
+  Poppins 700, 500, 600, 400
+  Volkhov 700
+  Open Sans 600
+
+-->
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -15,7 +25,36 @@
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="site-header__container container">
+      <a href="">
+        <img class="site-header__logo" src="img/site-logo.svg" alt="" width="114" height="33">
+      </a>
 
+      <div class="site-header__main-wrapper">
+
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item"><a class="sitenav__link" href="">Desitnations</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="">Hotels</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="">Flights</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="">Bookings</a></li>
+          </ul>
+        </nav>
+
+        <div class="login-wrapper">
+          <button class="button">Login</button>
+          <button class="button signup">Sign up</button>
+          <button class="button__language">EN
+            <span>
+              <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector 1" d="M0.5 0.5L5 5L9.5 0.5" stroke="#212832"/></svg>
+            </span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </header>
 
 
   <script src="js/main.js"></script>

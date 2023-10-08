@@ -1,5 +1,5 @@
 :root {
-
+  --text-color: #5e6282;
 }
 /* GLOBAL */
 html {
@@ -9,8 +9,7 @@ html {
 }
 
 *:focus {
-  outline: 2px dotted orchid;
-  outline-offset: 2px;
+  outline: none;
 }
 
 *,
@@ -25,7 +24,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
@@ -80,9 +79,9 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -93,6 +92,72 @@ select:-webkit-autofill:focus {
   flex-grow: 1;
 }
 
+/* HEADER */
+.site-header__container {
+  margin-top: 40px;
+  margin-bottom: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header__main-wrapper {
+  display: flex;
+}
+
+.site-header__logo {
+}
+
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav__item {
+  margin-right: 55px;
+}
+
+.sitenav__link {
+  display: block;
+  margin-top: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #212832;
+  text-decoration: none;
+}
+
+.login-wrapper {
+  align-items: center;
+  margin-left: 35px;
+}
+
+.button {
+  margin-right: 30px;
+  padding: 9px 21px;
+  border: 0;
+  background-color: transparent;
+}
+
+.signup {
+  border-radius: 5px;
+  border: 1px solid var(--1st, #212832);
+}
+
+.button__language {
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+.button:active {
+  opacity: 0.6;
+}
 
 
 
