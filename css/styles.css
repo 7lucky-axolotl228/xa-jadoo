@@ -79,9 +79,9 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1440px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1500px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -93,6 +93,11 @@ select:-webkit-autofill:focus {
 }
 
 /* HEADER */
+.site-header {
+  z-index: 10;
+  background-color: transparent;
+}
+
 .site-header__container {
   margin-top: 40px;
   margin-bottom: 27px;
@@ -106,6 +111,8 @@ select:-webkit-autofill:focus {
 }
 
 .site-header__logo {
+  width: 114px;
+  height: 33px;
 }
 
 .sitenav__list {
@@ -157,6 +164,58 @@ select:-webkit-autofill:focus {
 }
 .button:active {
   opacity: 0.6;
+}
+
+/* HERO */
+.hero {
+}
+.hero__container {
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/hero-plane.png"), url("../img/hero-header-bg.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px, contain;
+  background-position: center top 50px, right top -140px;
+}
+
+.hero__info {
+  padding-top: 113px;
+  padding-bottom: 113px;
+  width: 545px;
+}
+
+.hero__heading {
+  margin-bottom: -50px;
+  color: #DF6951;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.hero__motto {
+  margin-bottom: 30px;
+  color: #181E4B;
+  font-family: "Volkhov";
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -4.36px;
+}
+
+.hero__text {
+  margin-bottom: 30px;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.hero__img {
+  width: 765px;
+  height: 764px;
+  object-fit: contain;
 }
 
 
