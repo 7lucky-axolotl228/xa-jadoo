@@ -153,6 +153,14 @@ select:-webkit-autofill:focus {
   border: 1px solid var(--1st, #212832);
 }
 
+.signup:hover {
+  color: rgb(223, 105, 81, 0.8);
+  border-color: #df6951;
+}
+.signup:active {
+  opacity: 0.6;
+}
+
 .button__language {
   align-items: center;
   border: 0;
