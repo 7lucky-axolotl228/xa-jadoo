@@ -115,6 +115,13 @@ select:-webkit-autofill:focus {
   height: 33px;
 }
 
+.site-header__logo:hover {
+  opacity: 0.8;
+}
+.site-header__logo:active {
+  opacity: 0.6;
+}
+
 .sitenav__list {
   display: flex;
   align-items: center;
@@ -136,6 +143,10 @@ select:-webkit-autofill:focus {
   text-decoration: none;
 }
 
+.sitenav__link:hover {
+  color: rgb(223, 105, 81, 0.8);
+}
+
 .login-wrapper {
   align-items: center;
   margin-left: 35px;
@@ -146,6 +157,10 @@ select:-webkit-autofill:focus {
   padding: 9px 21px;
   border: 0;
   background-color: transparent;
+}
+
+.button:hover {
+  color: rgb(223, 105, 81, 0.8);
 }
 
 .signup {
